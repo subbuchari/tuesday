@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Skoruz-Chari\AppData\Local\Temp\testng-eclipse-889696509\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="runner.FrameworkStart" hash-for-method="AddIllustration_link_click">AddIllustration_link_click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="runner.FrameworkStart" hash-for-method="Hubungan_dropdown">Hubungan_dropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="runner.FrameworkStart" hash-for-method="IllustrationSale_link_click">IllustrationSale_link_click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="runner.FrameworkStart" hash-for-method="Kategori_Dropdown">Kategori_Dropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="runner.FrameworkStart" hash-for-method="Packageoptions_dropdown_click">Packageoptions_dropdown_click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="runner.FrameworkStart" hash-for-method="ProductName_dropdown_click">ProductName_dropdown_click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="runner.FrameworkStart" hash-for-method="TanggalLahir_textbox_type">TanggalLahir_textbox_type</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="runner.FrameworkStart" hash-for-method="TypesOfProducts_dropdown_click">TypesOfProducts_dropdown_click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="runner.FrameworkStart" hash-for-method="kelasPekerjaan_Dropdown">kelasPekerjaan_Dropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="runner.FrameworkStart" hash-for-method="lanjutbutton_click">lanjutbutton_click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="runner.FrameworkStart" hash-for-method="loginApp_loginbtn_click">loginApp_loginbtn_click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="runner.FrameworkStart" hash-for-method="loginApp_password_type">loginApp_password_type</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="runner.FrameworkStart" hash-for-method="loginApp_username_type">loginApp_username_type</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="runner.FrameworkStart" hash-for-method="loginApp_verifyLogin_status">loginApp_verifyLogin_status</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="runner.FrameworkStart" hash-for-method="namalengkap_textbox_type">namalengkap_textbox_type</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="runner.FrameworkStart" hash-for-method="titelDropDown_click">titelDropDown_click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runner.FrameworkStart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddIllustration_link_click">
+                  </a> <!-- AddIllustration_link_click -->
+                  <span class="method-name">AddIllustration_link_click</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Hubungan_dropdown">
+                  </a> <!-- Hubungan_dropdown -->
+                  <span class="method-name">Hubungan_dropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IllustrationSale_link_click">
+                  </a> <!-- IllustrationSale_link_click -->
+                  <span class="method-name">IllustrationSale_link_click</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Kategori_Dropdown">
+                  </a> <!-- Kategori_Dropdown -->
+                  <span class="method-name">Kategori_Dropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Packageoptions_dropdown_click">
+                  </a> <!-- Packageoptions_dropdown_click -->
+                  <span class="method-name">Packageoptions_dropdown_click</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProductName_dropdown_click">
+                  </a> <!-- ProductName_dropdown_click -->
+                  <span class="method-name">ProductName_dropdown_click</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TanggalLahir_textbox_type">
+                  </a> <!-- TanggalLahir_textbox_type -->
+                  <span class="method-name">TanggalLahir_textbox_type</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TypesOfProducts_dropdown_click">
+                  </a> <!-- TypesOfProducts_dropdown_click -->
+                  <span class="method-name">TypesOfProducts_dropdown_click</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="kelasPekerjaan_Dropdown">
+                  </a> <!-- kelasPekerjaan_Dropdown -->
+                  <span class="method-name">kelasPekerjaan_Dropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lanjutbutton_click">
+                  </a> <!-- lanjutbutton_click -->
+                  <span class="method-name">lanjutbutton_click</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginApp_loginbtn_click">
+                  </a> <!-- loginApp_loginbtn_click -->
+                  <span class="method-name">loginApp_loginbtn_click</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginApp_password_type">
+                  </a> <!-- loginApp_password_type -->
+                  <span class="method-name">loginApp_password_type</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginApp_username_type">
+                  </a> <!-- loginApp_username_type -->
+                  <span class="method-name">loginApp_username_type</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginApp_verifyLogin_status">
+                  </a> <!-- loginApp_verifyLogin_status -->
+                  <span class="method-name">loginApp_verifyLogin_status</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="namalengkap_textbox_type">
+                  </a> <!-- namalengkap_textbox_type -->
+                  <span class="method-name">namalengkap_textbox_type</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titelDropDown_click">
+                  </a> <!-- titelDropDown_click -->
+                  <span class="method-name">titelDropDown_click</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Skoruz-Chari\AppData\Local\Temp\testng-eclipse-889696509\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.FrameworkStart&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Packageoptions_dropdown_click')
+data.setCell(0, 2, 'runner.FrameworkStart')
+data.setCell(0, 3, 18801);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'IllustrationSale_link_click')
+data.setCell(1, 2, 'runner.FrameworkStart')
+data.setCell(1, 3, 11807);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginApp_loginbtn_click')
+data.setCell(2, 2, 'runner.FrameworkStart')
+data.setCell(2, 3, 10990);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Hubungan_dropdown')
+data.setCell(3, 2, 'runner.FrameworkStart')
+data.setCell(3, 3, 10400);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ProductName_dropdown_click')
+data.setCell(4, 2, 'runner.FrameworkStart')
+data.setCell(4, 3, 10386);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Kategori_Dropdown')
+data.setCell(5, 2, 'runner.FrameworkStart')
+data.setCell(5, 3, 10328);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'kelasPekerjaan_Dropdown')
+data.setCell(6, 2, 'runner.FrameworkStart')
+data.setCell(6, 3, 10231);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'titelDropDown_click')
+data.setCell(7, 2, 'runner.FrameworkStart')
+data.setCell(7, 3, 10192);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TypesOfProducts_dropdown_click')
+data.setCell(8, 2, 'runner.FrameworkStart')
+data.setCell(8, 3, 9168);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'AddIllustration_link_click')
+data.setCell(9, 2, 'runner.FrameworkStart')
+data.setCell(9, 3, 8028);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginApp_username_type')
+data.setCell(10, 2, 'runner.FrameworkStart')
+data.setCell(10, 3, 6616);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'lanjutbutton_click')
+data.setCell(11, 2, 'runner.FrameworkStart')
+data.setCell(11, 3, 4966);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TanggalLahir_textbox_type')
+data.setCell(12, 2, 'runner.FrameworkStart')
+data.setCell(12, 3, 3511);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'namalengkap_textbox_type')
+data.setCell(13, 2, 'runner.FrameworkStart')
+data.setCell(13, 3, 3483);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginApp_verifyLogin_status')
+data.setCell(14, 2, 'runner.FrameworkStart')
+data.setCell(14, 3, 3103);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginApp_password_type')
+data.setCell(15, 2, 'runner.FrameworkStart')
+data.setCell(15, 3, 2405);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">lanjutbutton_click</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Lanjut Button is clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">IllustrationSale_link_click</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">ilustrasiPenjualan image clicking status is Passed.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TypesOfProducts_dropdown_click</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">JenisProdukDropdown is clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginApp_password_type</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">password is given</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginApp_username_type</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">username is given</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Packageoptions_dropdown_click</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">PilihanPaketDropdown is clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginApp_verifyLogin_status</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">login status is pass.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">AddIllustration_link_click</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TambhaIllustrasi image clicking status is Passed.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginApp_loginbtn_click</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">login button is clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ProductName_dropdown_click</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NamaProdukDropdown is clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.FrameworkStart</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">runExeApplication</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">loginApp_username_type</span>
+                <span class="method-start">562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginApp_password_type</span>
+                <span class="method-start">7186 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginApp_loginbtn_click</span>
+                <span class="method-start">9599 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginApp_verifyLogin_status</span>
+                <span class="method-start">20591 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">IllustrationSale_link_click</span>
+                <span class="method-start">23696 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddIllustration_link_click</span>
+                <span class="method-start">35505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TypesOfProducts_dropdown_click</span>
+                <span class="method-start">43536 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ProductName_dropdown_click</span>
+                <span class="method-start">52710 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Packageoptions_dropdown_click</span>
+                <span class="method-start">63101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">lanjutbutton_click</span>
+                <span class="method-start">81905 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titelDropDown_click</span>
+                <span class="method-start">86876 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">namalengkap_textbox_type</span>
+                <span class="method-start">97071 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TanggalLahir_textbox_type</span>
+                <span class="method-start">100557 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Kategori_Dropdown</span>
+                <span class="method-start">104073 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">kelasPekerjaan_Dropdown</span>
+                <span class="method-start">114405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Hubungan_dropdown</span>
+                <span class="method-start">124639 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">quitExeApp</span>
+                <span class="method-start">135079 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+    <line>
+      <![CDATA[username is given]]>
+    </line>
+    <line>
+      <![CDATA[password is given]]>
+    </line>
+    <line>
+      <![CDATA[login button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[login status is pass.]]>
+    </line>
+    <line>
+      <![CDATA[ilustrasiPenjualan image clicking status is Passed.]]>
+    </line>
+    <line>
+      <![CDATA[TambhaIllustrasi image clicking status is Passed.]]>
+    </line>
+    <line>
+      <![CDATA[JenisProdukDropdown is clicked]]>
+    </line>
+    <line>
+      <![CDATA[NamaProdukDropdown is clicked]]>
+    </line>
+    <line>
+      <![CDATA[PilihanPaketDropdown is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Lanjut Button is clicked]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="134501" started-at="2017-02-08T13:24:38Z" finished-at="2017-02-08T13:26:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="134501" started-at="2017-02-08T13:24:38Z" finished-at="2017-02-08T13:26:52Z">
+      <class name="runner.FrameworkStart">
+        <test-method status="PASS" signature="runExeApplication()[pri:0, instance:runner.FrameworkStart@50b494a6]" name="runExeApplication" is-config="true" duration-ms="543" started-at="2017-02-08T18:54:37Z" finished-at="2017-02-08T18:54:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runExeApplication -->
+        <test-method status="PASS" signature="loginApp_username_type()[pri:1, instance:runner.FrameworkStart@50b494a6]" name="loginApp_username_type" duration-ms="6616" started-at="2017-02-08T18:54:38Z" finished-at="2017-02-08T18:54:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[username is given]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApp_username_type -->
+        <test-method status="PASS" signature="loginApp_password_type()[pri:2, instance:runner.FrameworkStart@50b494a6]" name="loginApp_password_type" duration-ms="2405" started-at="2017-02-08T18:54:44Z" finished-at="2017-02-08T18:54:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[password is given]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApp_password_type -->
+        <test-method status="PASS" signature="loginApp_loginbtn_click()[pri:3, instance:runner.FrameworkStart@50b494a6]" name="loginApp_loginbtn_click" duration-ms="10990" started-at="2017-02-08T18:54:47Z" finished-at="2017-02-08T18:54:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login button is clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApp_loginbtn_click -->
+        <test-method status="PASS" signature="loginApp_verifyLogin_status()[pri:4, instance:runner.FrameworkStart@50b494a6]" name="loginApp_verifyLogin_status" duration-ms="3103" started-at="2017-02-08T18:54:58Z" finished-at="2017-02-08T18:55:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login status is pass.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApp_verifyLogin_status -->
+        <test-method status="PASS" signature="IllustrationSale_link_click()[pri:5, instance:runner.FrameworkStart@50b494a6]" name="IllustrationSale_link_click" duration-ms="11807" started-at="2017-02-08T18:55:01Z" depends-on-methods="runner.FrameworkStart.loginApp_verifyLogin_status" finished-at="2017-02-08T18:55:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ilustrasiPenjualan image clicking status is Passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- IllustrationSale_link_click -->
+        <test-method status="PASS" signature="AddIllustration_link_click()[pri:6, instance:runner.FrameworkStart@50b494a6]" name="AddIllustration_link_click" duration-ms="8028" started-at="2017-02-08T18:55:13Z" depends-on-methods="runner.FrameworkStart.IllustrationSale_link_click" finished-at="2017-02-08T18:55:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TambhaIllustrasi image clicking status is Passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddIllustration_link_click -->
+        <test-method status="PASS" signature="TypesOfProducts_dropdown_click()[pri:7, instance:runner.FrameworkStart@50b494a6]" name="TypesOfProducts_dropdown_click" duration-ms="9168" started-at="2017-02-08T18:55:21Z" depends-on-methods="runner.FrameworkStart.AddIllustration_link_click" finished-at="2017-02-08T18:55:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[JenisProdukDropdown is clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TypesOfProducts_dropdown_click -->
+        <test-method status="PASS" signature="ProductName_dropdown_click()[pri:8, instance:runner.FrameworkStart@50b494a6]" name="ProductName_dropdown_click" duration-ms="10386" started-at="2017-02-08T18:55:30Z" depends-on-methods="runner.FrameworkStart.TypesOfProducts_dropdown_click" finished-at="2017-02-08T18:55:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[NamaProdukDropdown is clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ProductName_dropdown_click -->
+        <test-method status="PASS" signature="Packageoptions_dropdown_click()[pri:9, instance:runner.FrameworkStart@50b494a6]" name="Packageoptions_dropdown_click" duration-ms="18801" started-at="2017-02-08T18:55:40Z" depends-on-methods="runner.FrameworkStart.ProductName_dropdown_click" finished-at="2017-02-08T18:55:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PilihanPaketDropdown is clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Packageoptions_dropdown_click -->
+        <test-method status="PASS" signature="lanjutbutton_click()[pri:10, instance:runner.FrameworkStart@50b494a6]" name="lanjutbutton_click" duration-ms="4966" started-at="2017-02-08T18:55:59Z" finished-at="2017-02-08T18:56:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Lanjut Button is clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lanjutbutton_click -->
+        <test-method status="PASS" signature="titelDropDown_click()[pri:11, instance:runner.FrameworkStart@50b494a6]" name="titelDropDown_click" duration-ms="10192" started-at="2017-02-08T18:56:04Z" finished-at="2017-02-08T18:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titelDropDown_click -->
+        <test-method status="PASS" signature="namalengkap_textbox_type()[pri:12, instance:runner.FrameworkStart@50b494a6]" name="namalengkap_textbox_type" duration-ms="3483" started-at="2017-02-08T18:56:14Z" finished-at="2017-02-08T18:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- namalengkap_textbox_type -->
+        <test-method status="PASS" signature="TanggalLahir_textbox_type()[pri:13, instance:runner.FrameworkStart@50b494a6]" name="TanggalLahir_textbox_type" duration-ms="3511" started-at="2017-02-08T18:56:18Z" finished-at="2017-02-08T18:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TanggalLahir_textbox_type -->
+        <test-method status="PASS" signature="Kategori_Dropdown()[pri:14, instance:runner.FrameworkStart@50b494a6]" name="Kategori_Dropdown" duration-ms="10328" started-at="2017-02-08T18:56:21Z" finished-at="2017-02-08T18:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Kategori_Dropdown -->
+        <test-method status="PASS" signature="kelasPekerjaan_Dropdown()[pri:15, instance:runner.FrameworkStart@50b494a6]" name="kelasPekerjaan_Dropdown" duration-ms="10231" started-at="2017-02-08T18:56:32Z" finished-at="2017-02-08T18:56:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kelasPekerjaan_Dropdown -->
+        <test-method status="PASS" signature="Hubungan_dropdown()[pri:16, instance:runner.FrameworkStart@50b494a6]" name="Hubungan_dropdown" duration-ms="10400" started-at="2017-02-08T18:56:42Z" finished-at="2017-02-08T18:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hubungan_dropdown -->
+        <test-method status="PASS" signature="quitExeApp()[pri:0, instance:runner.FrameworkStart@50b494a6]" name="quitExeApp" is-config="true" duration-ms="4001" started-at="2017-02-08T18:56:52Z" finished-at="2017-02-08T18:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitExeApp -->
+      </class> <!-- runner.FrameworkStart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
